@@ -1,0 +1,25 @@
+{
+  "manifest_version": 2,
+  "name": "Financial extension",
+  "version": "1.0",
+  "description": "Get some basic financial charts and points with currencies and fuel",
+  "permissions": ["activeTab"],
+  "content_scripts": [
+    {
+      "matches": ["*://*.stackoverflow.com/*"],
+      "js": ["content.js"]
+    }
+  ],
+  "browser_action": {
+    "default_popup": "popup.html",
+    "default_title": "Financial extension",
+    "default_icon": {
+      "32": "img/icon-32.png"
+    }
+  },
+  "icons": {
+    "32": "img/icon-32.png",
+    "48": "img/icon-48.png",
+    "96": "img/icon-96.png"
+  }
+}
