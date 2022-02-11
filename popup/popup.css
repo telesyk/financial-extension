@@ -1,5 +1,7 @@
 .popup {
   max-width: 480px;
+  padding: 1rem;
+  font-family: "Lato", sans-serif;
 }
 
 .popup-header {
@@ -26,4 +28,20 @@
 .popup-version {
   flex-basis: 100%;
   order: 3;
+}
+
+.popup-version small {
+  color: grey;
+}
+
+.popup-app table {
+  width: 100%;
+  border-top: 1px solid grey;
+  border-bottom: 1px solid grey;
+  font-size: 14px;
+  font-size: 0.875rem;
+}
+
+.popup-app td {
+  padding: 5px;
 }

@@ -1,6 +1,6 @@
 const appElement = document.getElementById('app');
 const api = 'https://bank.gov.ua/NBUStatService/v1/statdirectory/exchange?json';
-const currency = ['HUF', 'USD', 'EUR'];
+const currency = ['EUR', 'USD', 'HUF'];
 
 function handleJSONResponse(response) {
   return response.json()
