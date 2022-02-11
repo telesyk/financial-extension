@@ -1,0 +1,29 @@
+.popup {
+  max-width: 480px;
+}
+
+.popup-header {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+}
+
+.popup-footer {
+  text-align: center;
+}
+
+.popup-logo {
+  flex-basis: 48px;
+  order: 1;
+}
+
+.popup-title {
+  padding-left: 10px;
+  flex-basis: auto;
+  order: 2;
+}
+
+.popup-version {
+  flex-basis: 100%;
+  order: 3;
+}

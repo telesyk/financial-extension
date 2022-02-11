@@ -6,12 +6,12 @@
   "permissions": ["activeTab"],
   "content_scripts": [
     {
-      "matches": ["*://*.stackoverflow.com/*"],
+      "matches": ["<all_urls>"],
       "js": ["content.js"]
     }
   ],
   "browser_action": {
-    "default_popup": "popup.html",
+    "default_popup": "popup/popup.html",
     "default_title": "Financial extension",
     "default_icon": {
       "32": "img/icon-32.png"

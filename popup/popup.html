@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="utf-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Extension</title>
+  <link rel="stylesheet" href="popup.css">
+</head>
+
+<body class="popup">
+  <header class="popup-header">
+    <h1 class="popup-title" id="extName"></h1>
+    <div class="popup-logo" id="extLogo"></div>
+  </header>
+
+  <div id="app"></div>
+
+  <footer class="popup-footer">
+    <p class="popup-version">
+      <small id="extVersion"></small>
+    </p>
+  </footer>
+</body>
+<script src="popup.js"></script>
+<script type="module" src="currency.js"></script>
+
+</html>
