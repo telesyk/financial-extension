@@ -2,7 +2,7 @@
   "manifest_version": 2,
   "name": "Financial extension",
   "version": "1.0",
-  "description": "Get some basic financial charts and points with currencies and fuel",
+  "description": "Get some basic currency exchange rates and fuel",
   "permissions": ["activeTab"],
   "content_scripts": [
     {
